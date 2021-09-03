@@ -17,11 +17,26 @@
 }
 
 .header__logo_place_header {
-
+  position: absolute;
+  margin: 30px 64px;
 }
 
 .logo {
+  height: 31px;
+  width: 154px;
+}
 
+.header__title {
+  width: 730px;
+  margin-left: 64px;
+  display: flex;
+  align-items: center;
+}
+
+.header__subtitle {
+  position: absolute;
+  width: 388px;
+  margin: 30px 64px;
 }
 
 
@@ -38,4 +53,9 @@
   color: white;
   margin-right: 0;
   margin-top: 80px;
+}
+
+div {
+  min-height: 600px;
+  max-height: 756px;
 }
