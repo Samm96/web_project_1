@@ -16,10 +16,20 @@
   /* parameters for the header section */
 }
 
+.header__logo_place_header {
+
+}
+
+.logo {
+
+}
+
+
 /* here we have two examples of selectors in order to remind you how to set styles for elements */
 .header__square-pic {
   height: 568px;
   width: 568px;
+  background-color: #2f80ed;
 }
 
 /* including elements with key-value modifiers */
