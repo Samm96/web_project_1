@@ -31,24 +31,17 @@
 .header__title {
   display: flex;
   align-items: center;
-  box-sizing: content-box;
   width: 730px;
   margin-left: 64px;
   line-height: 96px;
   font-size: 102px;
   font-weight: bold;
-  z-index: 4;
 }
 
 .header__subtitle {
-  position: absolute;
   width: 388px;
-  margin-bottom: 30px;
+  position: absolute;
   margin-left: 64px;
-  line-height: 25px;
-  font-size: 18px;
-  font-weight: normal;
-  z-index: 2;
 }
 
 .header__link {
@@ -60,6 +53,7 @@
   top: 64px;
   width: 756px;
   height: 608px;
+  right: 0;
 }
 
 
