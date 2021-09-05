@@ -38,10 +38,15 @@
   font-weight: bold;
 }
 
+/* come back to this
 .header__subtitle {
-  width: 388px;
   position: absolute;
+  width: 388px;
+  margin-bottom: 30px;
   margin-left: 64px;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
 }
 
 .header__link {
