@@ -48,7 +48,7 @@
   font-size: 18px;
   font-weight: normal;
 }
-
+*/
 .header__link {
   text-decoration: none;
 }
@@ -83,29 +83,30 @@
   margin-right: 0;
   margin-top: 80px;
 }
-/*
-.two-columns {
+
+.content {
   display: flex;
-  justify-content: space-between;
+  margin: 100px;
+  justify-content: center;
   align-items: center;
-  top: 100px;
-  bottom: 100px;
+}
+
+.description {
+  width: 80%;
+  min-width: 784px;
+}
+
+.two-columns {
 }
 
 .two-columns__brief {
-  width: 175px;
 }
 
 .two-columns__main-text {
-  width: 80%;
-  min-width: 784px;
 }
 
 .two-columns__paragraph {
 }
 
 .two-columns__span-accent {
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: bold;
 }
