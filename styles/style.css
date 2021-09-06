@@ -91,10 +91,10 @@
 }
 
 .two-columns {
+
 }
 
 .two-columns__brief {
-  width: 175px;
   line-height: 12px;
   font-size: 18px;
   font-weight: normal;
@@ -102,6 +102,7 @@
 }
 
 .two-columns__main-text {
+  width: 784px;
 }
 
 .two-columns__paragraph {
