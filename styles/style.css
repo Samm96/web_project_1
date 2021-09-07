@@ -31,7 +31,7 @@
 .header__title {
   display: flex;
   align-items: center;
-  width: 730px;
+  max-width: 730px;
   margin-left: 64px;
   line-height: 96px;
   font-size: 102px;
@@ -85,9 +85,10 @@
 }
 
 .content {
-}
+  }
 
 .description {
+  display: flex;
 }
 
 .two-columns {
@@ -115,4 +116,63 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: bold;
+}
+
+
+.digits {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.title {
+  top: 100px;
+  line-height: 69px;
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.subtitle {
+  margin-top: 20px;
+  margin-bottom: 60px;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.table {
+  margin-left: auto;
+  margin-right: auto;
+  bottom: 100px;
+  width: 1100px;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.table__cell {
+ width: 250px;
+ padding: 0;
+ margin-bottom: 60px;
+ flex-direction: column;
+ flex-wrap: wrap;
+justify-content: space-between;
+}
+
+.table__heading {
+  margin-bottom: 20px;
+  width: 250px;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.table__text {
+  width: 250px;
+  justify-content: space-around;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
 }
