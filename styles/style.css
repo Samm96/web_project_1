@@ -305,7 +305,7 @@
 
 .footer__columns {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
 .footer__author {
@@ -316,10 +316,15 @@
 }
 
 .footer__column_content_about {
+  display: flex;
+  flex-direction: column;
   width: 90%;
+  list-style: none;
 }
 
 .footer__column-heading {
+  margin: 0;
+  padding: 0;
   line-height: 30px;
   font-size: 18px;
   font-weight: bold;
@@ -338,7 +343,6 @@
   position: relative;
   margin-bottom: 18px;
   margin-top: 18px;
-  left: 64px;
   padding-top: 0;
   padding-bottom: 0;
   line-height: 25px;
@@ -350,22 +354,23 @@
   text-decoration: none;
   list-style: none;
   color: #f2f2f2;
-  margin-top: 20px;
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
+  padding: 0;
 }
 
 .footer__column_content_social {
-  display: flex;
-  flex-direction: column;
   width: 256px;
-
+  padding-left: 10px;
+  margin-left: auto;
 }
 
 .footer__social-icons {
   height: 16px;
   width: 16px;
+  text-align: left;
+  padding-left: 10px;
 }
 
 
