@@ -83,29 +83,31 @@
   margin-top: 80px;
 }
 
+
 .two-columns {
-  position: relative;
-  margin-left: 100px;
-  margin-right: 100px;
-  flex-direction: column;
+  display: flex;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  justify-content: space-between;
+  min-width: 784px;
 }
 
 .two-columns__brief {
+  position: absolute;
   width: 175px;
-  line-height: 12px;
+  line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
   color: #2f80ed;
+  margin: 0;
 }
 
 .two-columns__main-text {
   width: 80%;
-  min-width: 784px;
 }
 
+
 .two-columns__paragraph {
-  bottom: 30px;
-  width: 80%;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
