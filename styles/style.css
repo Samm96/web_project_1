@@ -193,7 +193,8 @@
 .feynman__title {
   position: absolute;
   text-align: center;
-  margin: auto;
+  margin-top: auto;
+  left: 500px;
   max-width: 775px;
   line-height: 1.15;
   font-size: 120px;
@@ -201,8 +202,10 @@
 }
 
 .feynman__subtitle {
+  position: absolute;
+  margin-bottom: auto;
   max-width: 775px;
-  text-align: center;
+  left: 750px;
 }
 
 .feynman__link {
