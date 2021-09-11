@@ -195,40 +195,21 @@ justify-content: space-between;
 }
 
 .feynman {
-  display: flex;
-  flex-direction: row-reverse;
-  padding-top: 100px;
-  max-height: 790px;
-  padding: 0;
-  margin: 0;
-  overflow: hidden;
+
 }
 
 .feynman__title {
-  width: 775px;
-  line-height: 1.15;
-  font-size: 120px;
-  font-weight: bold;
 }
 
 /* unsure how to move this element */
 .feynman__subtitle {
-  line-height: 51px;
-  font-size: 36px;
-  font-weight: normal;
 }
 
 .feynman__link {
-  line-height: 51px;
-  font-size: 36px;
-  font-weight: normal;
-  text-decoration: none;
-  color: #2f80ed;
+
 }
 
 .feynman-image {
-  height: 637px;
-  width: 867px;
  }
 
 
