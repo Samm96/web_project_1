@@ -195,19 +195,17 @@ justify-content: space-between;
 }
 
 .feynman {
-  width: 100%;
-  margin-top: 100px;
-  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row-reverse;
+  padding-top: 100px;
   max-height: 790px;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
 }
 
 .feynman__title {
-  position: absolute;
-  text-align: center;
-  margin-top: auto;
-  margin-bottom: auto;
-  left: 500px;
-  max-width: 775px;
+  width: 775px;
   line-height: 1.15;
   font-size: 120px;
   font-weight: bold;
@@ -215,16 +213,12 @@ justify-content: space-between;
 
 /* unsure how to move this element */
 .feynman__subtitle {
-  margin: auto;
-  position: relative;
-  text-align: center;
-  width: 100%;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
 }
 
 .feynman__link {
-  position: absolute;
-  margin-top: 250px;
-  right: 48px;
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
