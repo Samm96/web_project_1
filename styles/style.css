@@ -98,15 +98,15 @@
 }
 
 .two-columns {
- display: flex;
- justify-content: space-between;
+display: flex;
+justify-content: space-between;
  margin: 0;
  padding: 0;
 }
 
 .two-columns__brief {
-  max-width: 175px;
-  margin: 0;
+  min-width: 175px;
+  margin-bottom: auto;
   padding: 0;
   line-height: 1.2;
   font-size: 18px;
@@ -115,7 +115,9 @@
 }
 
 .two-columns__main-text {
-  width: 80%;
+  display: flex;
+  margin: 0;
+  padding: 0;
   min-width: 784px;
 }
 
@@ -136,7 +138,6 @@
 
 
 .digits {
-  margin-top: 100px;
   margin-bottom: 100px;
 }
 
@@ -200,10 +201,11 @@
   max-height: 790px;
 }
 
-.feynman-title {
+.feynman__title {
   position: absolute;
   text-align: center;
   margin-top: auto;
+  margin-bottom: auto;
   left: 500px;
   max-width: 775px;
   line-height: 1.15;
@@ -212,14 +214,14 @@
 }
 
 /* unsure how to move this element */
-.feynman-subtitle {
+.feynman__subtitle {
   margin: auto;
   position: relative;
   text-align: center;
   width: 100%;
 }
 
-.feynman-link {
+.feynman__link {
   position: absolute;
   margin-top: 250px;
   right: 48px;
