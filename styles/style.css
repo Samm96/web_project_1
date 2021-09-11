@@ -202,19 +202,44 @@ position: relative;
 .feynman__title {
   text-align: center;
   justify-content: center;
+  max-width: 775px;
+  margin: 0;
+  padding: 0;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: bold;
 }
 
 /* unsure how to move this element */
 .feynman__subtitle {
+  position: relative;
   text-align: center;
   justify-content: center;
+  top: 70px;
+  margin-bottom: 0;
+  padding: 0;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
 }
 
 .feynman__link {
-
+  position: absolute;
+  left: 48px;
+  margin: 0;
+  padding: 0;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  text-decoration: none;
+  color: #2f80ed;
 }
 
 .feynman-image {
+  height: 637px;
+  width: 867px;
+  margin: 0;
+  padding: 0;
  }
 
 
