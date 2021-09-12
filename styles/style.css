@@ -200,10 +200,10 @@ height: 790px;
 }
 
 .feynman__title {
+  position: absolute;
   text-align: center;
   justify-content: center;
   max-width: 775px;
-  margin: 0;
   padding: 0;
   line-height: 1.15;
   font-size: 120px;
@@ -212,19 +212,13 @@ height: 790px;
 
 /* unsure how to move this element */
 .feynman__subtitle {
-  position: relative;
   text-align: center;
-  justify-content: center;
-  top: 70px;
-  margin-bottom: 0;
-  padding: 0;
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
 }
 
 .feynman__link {
-  position: absolute;
   left: 48px;
   margin: 0;
   padding: 0;
@@ -236,6 +230,8 @@ height: 790px;
 }
 
 .feynman-image {
+  position: absolute;
+  bottom: 0;
   height: 637px;
   width: 867px;
   margin: 0;
