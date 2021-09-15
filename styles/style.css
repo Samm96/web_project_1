@@ -26,12 +26,10 @@
   position: absolute;
   top: 30px;
   left: 64px;
-}
-
-.logo {
   height: 31px;
   width: 154px;
 }
+
 
 .header__title {
   max-width: 730px;
