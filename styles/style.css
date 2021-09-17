@@ -190,13 +190,8 @@ p:last-child {
 .feynman__title {
   text-align: center;
   width: 775px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: auto;
-  position: relative;
-  top: 100px;
+  margin: 100px auto 0;
   padding: 0;
-  margin-bottom: 0;
   line-height: 1.15;
   font-size: 120px;
   font-weight: bold;
@@ -208,9 +203,8 @@ p:last-child {
 .feynman__subtitle {
   text-align: center;
   position: relative;
-  top: 100px;
+  margin: 100px auto 0;
   padding-top: 70px;
-  margin: 0;
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
@@ -222,7 +216,7 @@ p:last-child {
   position: absolute;
   bottom: 0;
   right: 48px;
-  height: 50%;
+  top: 50%;
   text-decoration: none;
   color: #2f80ed;
   line-height: 51px;
@@ -245,8 +239,7 @@ p:last-child {
   align-items: center;
   padding-top: 90px;
   padding-bottom: 90px;
-  margin-bottom: 10px;
-  background-color: black;
+  background-color: #1F1F1F;
   color: #f2f2f2;
   position: relative;
   overflow: hidden;
@@ -319,7 +312,7 @@ p:last-child {
 
 .footer {
   color: #f2f2f2;
-  background-color: black;
+  background-color: #1F1F1F;
   min-height: 350px;
 }
 
