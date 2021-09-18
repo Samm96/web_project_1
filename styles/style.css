@@ -80,23 +80,20 @@
 }
 
 .description {
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  margin: 100px 0 100px 0;
 }
 
 .two-columns {
 display: flex;
 justify-content: space-between;
- margin: 0;
+ margin: auto;
  padding: 0;
  width: 80%;
 }
 
 .two-columns__brief {
-  margin: 0 0 0 64px;
-  max-width: 175px;
+  margin: 0;
+  width: 175px;
   padding: 0;
   line-height: 1.2;
   font-size: 18px;
@@ -110,6 +107,7 @@ justify-content: space-between;
   padding: 0;
   min-width: 784px;
   flex-direction: column;
+  width: 80%;
 }
 
 
