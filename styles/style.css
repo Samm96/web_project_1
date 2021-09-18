@@ -256,6 +256,7 @@ justify-content: space-between;
 }
 
 .section-title_theme_dark {
+  margin: 0;
   width: 60%;
   line-height: 69px;
   font-size: 60px;
