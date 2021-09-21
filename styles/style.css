@@ -6,7 +6,7 @@
   /* here we've set a maximum page width */
   margin: 0 auto;
   /* this ensures that all content is centered on screens wider than 1600px */
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
 .header {
@@ -30,10 +30,11 @@
   width: 154px;
 }
 
-
 .header__title {
-  margin: 0 0 0 64px;
+  margin: 0;
   padding: 0;
+  position: absolute;
+  left: 64px;
   max-width: 730px;
   line-height: 96px;
   font-size: 102px;
@@ -65,7 +66,6 @@
   z-index: 1;
 }
 
-
 /* here we have two examples of selectors in order to remind you how to set styles for elements */
 .header__square-pic {
   position: absolute;
@@ -84,11 +84,11 @@
 }
 
 .two-columns {
-display: flex;
-justify-content: space-between;
- margin: auto;
- padding: 0;
- width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  padding: 0;
+  width: 80%;
 }
 
 .two-columns__brief {
@@ -110,7 +110,6 @@ justify-content: space-between;
   width: 80%;
 }
 
-
 .two-columns__paragraph {
   margin: 0 0 30px 0;
   padding: 0;
@@ -119,18 +118,24 @@ justify-content: space-between;
   font-weight: normal;
 }
 
+p:last-child {
+  margin: 0;
+}
+
 .two-columns__span-accent {
   line-height: 34px;
   font-size: 24px;
   font-weight: bold;
 }
 
-
 .digits {
   margin: 0;
+  padding: 0;
 }
 
 .section-title {
+  margin: 0;
+  padding: 0;
   line-height: 69px;
   font-size: 60px;
   font-weight: bold;
@@ -139,7 +144,6 @@ justify-content: space-between;
 
 .section-subtitle {
   margin-top: 20px;
-  margin-bottom: 60px;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
@@ -157,9 +161,9 @@ justify-content: space-between;
 }
 
 .table__cell {
- width: 250px;
- padding: 0;
- margin-bottom: 60px;
+  width: 250px;
+  padding: 0;
+  margin-top: 60px;
 }
 
 .table__heading {
@@ -170,6 +174,8 @@ justify-content: space-between;
 }
 
 .table__text {
+  margin: 0;
+  padding: 0;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
@@ -194,7 +200,6 @@ justify-content: space-between;
   font-size: 120px;
   font-weight: bold;
   z-index: 3;
-
 }
 
 /* unsure how to move this element */
@@ -207,7 +212,6 @@ justify-content: space-between;
   font-size: 36px;
   font-weight: normal;
   z-index: 3;
-
 }
 
 .feynman__link {
@@ -220,6 +224,7 @@ justify-content: space-between;
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
+  z-index: 4;
 }
 
 .feynman__image {
@@ -229,8 +234,7 @@ justify-content: space-between;
   height: 637px;
   width: 867px;
   z-index: 2;
- }
-
+}
 
 .kaufman {
   display: flex;
@@ -238,12 +242,11 @@ justify-content: space-between;
   align-items: center;
   padding-top: 90px;
   padding-bottom: 90px;
-  background-color: #1F1F1F;
+  background-color: #1f1f1f;
   color: #f2f2f2;
   position: relative;
   overflow: hidden;
 }
-
 
 /* including elements with key-value modifiers */
 .table__cell_theme_dark {
@@ -309,10 +312,9 @@ justify-content: space-between;
   top: 0;
 }
 
-
 .footer {
   color: #f2f2f2;
-  background-color: #1F1F1F;
+  background-color: #1f1f1f;
   min-height: 350px;
   margin: 0;
   padding: 0;
@@ -323,14 +325,13 @@ justify-content: space-between;
   min-height: 350px;
   justify-content: space-around;
   margin: 0;
+  box-sizing: border-box;
   padding: 60px 0 40px 0;
 }
 
 .footer__column_content_copyright {
   display: flex;
   flex-direction: column;
-  line-height: 25px;
-  font-size: 18px;
   font-weight: normal;
   flex-basis: 711px;
   justify-content: space-between;
@@ -345,9 +346,12 @@ justify-content: space-between;
 }
 
 .footer__author {
-  padding: 18px 0;
+  margin: 0;
+  padding: 18px 0 18px 0;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
 }
-
 
 .footer__column_content_about {
   margin: 0;
@@ -388,3 +392,4 @@ justify-content: space-between;
   text-decoration: none;
   color: #f2f2f2;
 }
+
