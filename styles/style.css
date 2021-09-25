@@ -19,6 +19,15 @@
   font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
+.link {
+  opacity: 1;
+  transition: opacity .3s ease-out;
+}
+
+.link:hover {
+  opacity: .2;
+}
+
 .logo {
   height: 31px;
   width: 154px;
