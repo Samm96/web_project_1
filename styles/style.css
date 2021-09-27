@@ -109,7 +109,7 @@
 }
 
 .techniques {
-  margin: 0 auto 40px;
+  margin: 0 auto 0px;
   padding: 0;
 }
 
@@ -166,7 +166,7 @@
 
 .video {
   margin: 0;
-  padding: 0;
+  padding-top: 100px;
   display: flex;
   flex-direction: column;
   position: relative;
